@@ -26,18 +26,16 @@ Start from zero, build, develop, deploy, and build a daily fresh food mall
 #### Technical Architecture
 * Development Architecture    
 The BS architecture, i.e. Browser/Server (browser/server) architecture, is used to build a web-based web mall system, and its architecture logic:   
-! [frame](Readme/framework.png)
-
+![frame](Readme/framework.png)
 * Deployment Architecture     
 Nginx+uwsgi     
-Deployment architecture: ! [deploy](Readme/deploy.PNG)
+Deployment architecture: 
+![deploy](Readme/deploy.PNG)
 ##### 技术架构
 * 开发架构    
 采用BS结构, 即Browser/Server(浏览器/服务器)结构,构建一个web的网站商城系统, 其架构逻辑:   
-![frame](Readme/framework.png)
 * 部署架构     
 Nginx+uwsgi     
-![deploy](Readme/deploy.PNG)
 
 #### main module  
 There are four main modules:    
@@ -55,13 +53,12 @@ There are four main modules:
 [查看各模块详情分析](Readme/Analysis.md)
 
 #### database table
-! [DB](Readme/DBTables.png)
+![DB](Readme/DBtables.png)
 * SPU is the smallest unit of commodity information aggregation, a collection of reusable and easily retrievable standardized information that describes the characteristics of a product. In layman's terms, a product with the same attribute values and characteristics can be called an SPU.     
 For example, iphone4 is an SPU, N97 is also an SPU, this has nothing to do with the merchant, nor with the color, style or package.
 * SKU is the unit of stock in and out measurement, which can be in pieces, boxes, trays, etc. It is most commonly used in apparel and footwear.   
 For example, a SKU in textiles usually means: size, color, style.
 #####  数据库表
-![DB](Readme/DBtables.png)
 * SPU是商品信息聚合的最小单位，是一组可复用、易检索的标准化信息的集合，该集合描述了一个产品的特性。通俗点讲，属性值、特性相同的商品就可以称为一个SPU。     
 例如，iphone4就是一个SPU，N97也是一个SPU，这个与商家无关，与颜色、款式、套餐也无关。
 * SKU即库存进出计量的单位， 可以是以件、盒、托盘等为单位，在服装、鞋类商品中使用最多最普遍。   
